@@ -13,6 +13,14 @@
 
 **Check** [Postman_Documentation](https://documenter.getpostman.com/view/15544476/VUqpudL7)
 
+---
+
+
+#### Schema design
+![Group 4](https://user-images.githubusercontent.com/70065792/185910330-8ffa8afd-cd24-49ed-9acf-e91485b5aaf9.png)
+
+---
+
 ## Auth Route
 
 #### Create a user
