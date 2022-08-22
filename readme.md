@@ -3,6 +3,13 @@
 > Clone the repository
 > Install dependencies: npm install
 
+> Add secret keys to .env file
+
+    * PORT
+    * MONGO_URI
+    * JWT_SECRET
+    * CLOUDINARY_KEYS
+
 > Run the application: npm start
 
 #### Dependencies used
@@ -15,8 +22,8 @@
 
 ---
 
-
 #### Schema design
+
 ![Group 4](https://user-images.githubusercontent.com/70065792/185910330-8ffa8afd-cd24-49ed-9acf-e91485b5aaf9.png)
 
 ---

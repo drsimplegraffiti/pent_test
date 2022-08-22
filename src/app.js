@@ -20,7 +20,10 @@ app.use(express.urlencoded({ extended: true }));
 // middleware
 app.use(cors());
 app.use(helmet());
-app.use(morgan('dev'));
+
+if (process.env.NODE_ENV === 'development') {
+  app.use(morgan('dev'));
+}
 
 //Health Check
 app.get('/', (req, res) => {
